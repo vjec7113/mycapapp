@@ -1,0 +1,136 @@
+###Get the Service Document
+http://localhost:4004/odata/v4/CatelogService
+Authorization: Basic vijay:
+
+###MetaData of Service
+http://localhost:4004/odata/v4/CatelogService/$metadata
+  
+### Get the employee data
+http://localhost:4004/odata/v4/CatelogService/EmployeeSet
+Authorization: Bearer eyJhbGciOiJSUzI1NiIsImprdSI6Imh0dHBzOi8vZDk1MTA4Yzd0cmlhbC5hdXRoZW50aWNhdGlvbi51czEwLmhhbmEub25kZW1hbmQuY29tL3Rva2VuX2tleXMiLCJraWQiOiJkZWZhdWx0LWp3dC1rZXktNjY1MWU2YTdjZCIsInR5cCI6IkpXVCIsImppZCI6ICJzUWNVWWRCZ3crV0YrY25mTzJ0eXAxRDBZdU5kUTRsMGZZKy9NTWpxZHk4PSJ9.eyJqdGkiOiIzOWE3NWRkNjQ2ODg0NWMwYjcyZTcwODRlMDk1ZTNkMyIsImV4dF9hdHRyIjp7ImVuaGFuY2VyIjoiWFNVQUEiLCJzdWJhY2NvdW50aWQiOiIzNDA3YzY1NS00YzAyLTRhOTgtODBhMi04ZTZlN2JjN2IyYzAiLCJ6ZG4iOiJkOTUxMDhjN3RyaWFsIn0sInVzZXJfdXVpZCI6ImMzYzA0YjlkLWIzNzEtNGQxYy1iNDZkLTg2ZDYwYzU2MDZmZCIsInhzLnVzZXIuYXR0cmlidXRlcyI6eyJCYW5rTmFtZSI6WyJNeSBCYW5rIG9mIFNhbiBGcmFuY2lzY28iXSwiQ291bnRyeSI6WyJDSCIsIkdCIiwiSU4iLCJKUCIsIlVTIl19LCJ4cy5zeXN0ZW0uYXR0cmlidXRlcyI6eyJ4cy5yb2xlY29sbGVjdGlvbnMiOlsiU0FQIEhBTkEgQ2xvdWQgVmlld2VyIiwiU0FQIEhBTkEgQ2xvdWQgQWRtaW5pc3RyYXRvciIsIlN1YmFjY291bnQgQWRtaW5pc3RyYXRvciIsIlJDX1ZJSkFZIiwiU0FQIEhBTkEgQ2xvdWQgU2VjdXJpdHkgQWRtaW5pc3RyYXRvciJdfSwiZ2l2ZW5fbmFtZSI6IlZpamF5YWt1bWFyIiwiZmFtaWx5X25hbWUiOiJNYXJpbXV0aHUiLCJzdWIiOiI5ZTI4MmNhYS1jMGJlLTQ0NTEtYTZkZi04MGViYzY3NmE1MzMiLCJzY29wZSI6WyJvcGVuaWQiLCJteWNhcGFwcC1kOTUxMDhjN3RyaWFsLWRldiF0NDY1MTQ5LkRpc3BsYXkiXSwiY2xpZW50X2lkIjoic2ItbXljYXBhcHAtZDk1MTA4Yzd0cmlhbC1kZXYhdDQ2NTE0OSIsImNpZCI6InNiLW15Y2FwYXBwLWQ5NTEwOGM3dHJpYWwtZGV2IXQ0NjUxNDkiLCJhenAiOiJzYi1teWNhcGFwcC1kOTUxMDhjN3RyaWFsLWRldiF0NDY1MTQ5IiwiZ3JhbnRfdHlwZSI6InBhc3N3b3JkIiwidXNlcl9pZCI6IjllMjgyY2FhLWMwYmUtNDQ1MS1hNmRmLTgwZWJjNjc2YTUzMyIsIm9yaWdpbiI6InNhcC5kZWZhdWx0IiwidXNlcl9uYW1lIjoidmlqYXllYzcxMTNAZ21haWwuY29tIiwiZW1haWwiOiJ2aWpheWVjNzExM0BnbWFpbC5jb20iLCJhdXRoX3RpbWUiOjE3NTI1NjYzNDIsInJldl9zaWciOiI4NWQxMjM4ZCIsImlhdCI6MTc1MjU2NjM0MiwiZXhwIjoxNzUyNTY3MjQyLCJpc3MiOiJodHRwczovL2Q5NTEwOGM3dHJpYWwuYXV0aGVudGljYXRpb24udXMxMC5oYW5hLm9uZGVtYW5kLmNvbS9vYXV0aC90b2tlbiIsInppZCI6IjM0MDdjNjU1LTRjMDItNGE5OC04MGEyLThlNmU3YmM3YjJjMCIsImF1ZCI6WyJteWNhcGFwcC1kOTUxMDhjN3RyaWFsLWRldiF0NDY1MTQ5Iiwic2ItbXljYXBhcHAtZDk1MTA4Yzd0cmlhbC1kZXYhdDQ2NTE0OSIsIm9wZW5pZCJdfQ.h66wVeLeFI_Exun2cVmtcC-jGUUDygR6LITek7kh4kppEDDDYh5tk_6FCGFBNFdKBNBXIAtLA5JwPfrp2BVyNDo8k1eaSsDVesvQfsmma0Vw0UKpf7_lDIdaGJjXc5eoTAXMO9f80tbd3ztKUPrZgxQt8QYGcJCpoaEtHe4jTG23E6Jqo9WhMTP616PWONYQYhPeofxd-L8TfT_ZnguRuwRmNAqSKpYa-QFDiN0w9s1ykBW_eVdPwTU7bFuLshOS60vTk4ZcwsKB0GMetJUjrEYbRgqlzNhcj7Oka9YhJZ__KhYjLbt3MJA3XspzeWt6MKbkFXC7UhtZfivGwikOeQ
+
+### Get the Address Data
+http://localhost:4004/odata/v4/CatelogService/AddressSet
+Authorization: Basic vijay:
+
+###Get the Total number of employees
+http://localhost:4004/odata/v4/CatelogService/EmployeeSet/$count
+
+###Get call with pagination load data junk by junk $top $skip
+http://localhost:4004/odata/v4/CatelogService/EmployeeSet?$top=2&$skip=2
+
+###Select only few fields
+http://localhost:4004/odata/v4/CatelogService/EmployeeSet?$select=nameFirst,nameLast,email
+
+### Select based on filter $ filter
+http://localhost:4004/odata/v4/CatelogService/EmployeeSet?$filter=sex eq 'M'
+
+### Get call with Pattern match
+http://localhost:4004/odata/v4/CatelogService/EmployeeSet?$filter=Contains(nameFirst, 'Sai')
+
+###Get call to load single employee data
+#http://localhost:4004/odata/v4/CatelogService/EmployeeSet/02BD2137-0890-1EEA-A6C2-BB55C198A7FB
+http://localhost:4004/odata/v4/CatelogService/EmployeeSet('02BD2137-0890-1EEA-A6C2-BB55C198A7FB')
+
+###Post call to create new Employee
+POST http://localhost:4004/odata/v4/CatelogService/EmployeeSet
+Content-Type: application/json
+
+{
+  "nameFirst": "Sai",
+  "nameMiddle": null,
+  "nameLast": "Magizhan",
+  "nameInitials": null,
+  "sex": "M",
+  "language": "E",
+  "phoneNumber": null,
+  "email": "saim@gmail.com",
+  "loginName": "Magizh",
+  "CURRENCY_code": "USD",
+  "salaryAmount": 865743,
+  "accountNumber": "76543210",
+  "bankId": "66665555",
+  "bankName": "Indian Bank"
+}
+
+###Patch to update data
+PATCH http://localhost:4004/odata/v4/CatelogService/EmployeeSet/02BD2137-0890-1EEA-A6C2-BB55C19787FB
+Content-Type: application/json
+
+{
+    "salaryAmount": 999999,
+    "CURRENCY_code": "USD"
+}
+
+###Read Newly created employee
+http://localhost:4004/odata/v4/CatelogService/EmployeeSet/bb78aec7-3f3d-4fd8-aeb4-b56dfd0944e7
+
+###Delete newly created employee
+DELETE http://localhost:4004/odata/v4/CatelogService/EmployeeSet/bb78aec7-3f3d-4fd8-aeb4-b56dfd0944e7
+
+###Get the Product Data
+http://localhost:4004/odata/v4/CatelogService/ProductSet
+
+###Get Single product data
+http://localhost:4004/odata/v4/CatelogService/ProductSet/74867AD200E41EDBA5D8B06B26EB4052
+
+###Lazy loading - Mixin concept - loads both product data and order data
+http://localhost:4004/odata/v4/CatelogService/ProductSet/74867AD200E41EDBA5D8B06B26EB4052?$expand=To_Items
+
+###Po DATA
+http://localhost:4004/odata/v4/CatelogService/POs
+
+###Single purchase order data
+http://localhost:4004/odata/v4/CatelogService/POs/02BD2137-0890-1EEA-A6C2-BB55C1979006?$expand=Items
+
+###Post purchase order and Item data together
+POST http://localhost:4004/odata/v4/CatelogService/POs
+Content-Type: application/json
+
+{
+  "@odata.context": "$metadata#POs/$entity",
+  "CURRENCY_code": "EUR",
+  "GROSS_AMOUNT": 1857.5,
+  "NET_AMOUNT": 1560.92,
+  "TAX_AMOUNT": 296.58,
+  "NODE_KEY": "02BD213708901EEAA6C2BB55C1979006",
+  "PO_ID": "300000007",
+  "PARTNER_GUID_NODE_KEY": "74867AD200E41EDBA5D8B06885AFE052",
+  "LIFECYCLE_STATUS": "N",
+  "OVERALL_STATUS": "P",
+  "Items": [
+    {
+      "CURRENCY_code": "EUR",
+      "GROSS_AMOUNT": 333.18,
+      "NET_AMOUNT": 279.98,
+      "TAX_AMOUNT": 53.2,
+      "NODE_KEY": "02BD213708901EEAA6C2BB55C1979386",
+      "PARENT_KEY_NODE_KEY": "02BD213708901EEAA6C2BB55C1979006",
+      "PO_ITEM_POS": 10,
+      "PRODUCT_GUID_NODE_KEY": "74867AD200E41EDBA5D8B06B26F00052"
+    },
+    {
+      "CURRENCY_code": "EUR",
+      "GROSS_AMOUNT": 224.91,
+      "NET_AMOUNT": 189,
+      "TAX_AMOUNT": 35.91,
+      "NODE_KEY": "02BD213708901EEAA6C2BB55C1979387",
+      "PARENT_KEY_NODE_KEY": "02BD213708901EEAA6C2BB55C1979006",
+      "PO_ITEM_POS": 20,
+      "PRODUCT_GUID_NODE_KEY": "74867AD200E41EDBA5D8B06B26F5A052"
+    }
+  ]
+}
+
+###Calling the function - non instance bound
+http://localhost:4004/odata/v4/CatelogService/getMostExpensiveOrder()
+
+###Trigger the action
+POST http://localhost:4004/odata/v4/CatelogService/POs/02BD2137-0890-1EEA-A6C2-BB55C1978999/CatelogService.boost
+Authorization: Basic Magizhan:
+Content-Type: application/json
+
+{}
+
+###Get Custom Entity
+http://localhost:4004/odata/v4/my/EmployeeSrv
